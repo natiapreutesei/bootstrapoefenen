@@ -1,0 +1,88 @@
+@font-face {
+    font-family:'proxl';
+    src:url('../webfonts/Proximanova_light.otf');
+}
+@font-face {
+    font-family:'proxb';
+    src:url('../webfonts/Proximanove_bold.otf');
+}
+@font-face {
+    font-family:'proxr';
+    src:url('../webfonts/Proximanova_regular.ttf');
+}
+
+.pb-60{
+    padding-bottom:60px;
+}
+.pt-20{
+    padding-top:20px;
+}
+.my-drones{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.btnbluetop{
+    margin-top: 30px;
+}
+#topheader{
+    background:url('../images/header.png') no-repeat;
+    background-size:cover;
+}
+
+.navbar-brand{
+    font-family:proxl;
+    font-size:42.35px;
+}
+.navbar-brand span{
+    font-family:proxb;
+}
+.navbar-nav .nav-link{
+    color:white;
+}
+.navbar-nav .nav-link.active{
+    font-weight:bold;
+    color:white;
+}
+h1{
+    font-family: proxb;
+    font-size: 3rem;
+}
+#intro p{
+    font-size:18px;
+    font-family:proxr;
+}
+#intro button{
+    font-size:18px;
+    font-family:proxl;
+}
+#intro button:hover{
+    background:red;
+}
+
+.mac-mouse{
+    width: 35px;
+    height: 55px;
+}
+.mouse-wheel{
+    width: 3px;
+    height: 10px;
+    top:16px;
+}
+#buttonblue{
+    background: #2d4c9c;
+}
+#nature{
+    background: url("../images/Dronebackground.png") no-repeat;
+    background-position: bottom;
+    background-position: right;
+}
+/* BEGIN media queries*/
+@media (min-width: 992px) {
+    .my-drones{
+        margin-top: 135px;margin-bottom: 135px;
+    }
+    .btnbluetop{
+        margin-top: 109px;
+    }
+}
+/*END media queries*/
