@@ -17,6 +17,15 @@
 .pt-20{
     padding-top:20px;
 }
+.mt-50{
+    margin-top:50px;
+}
+.mt-50{
+    margin-top:50px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
 .my-drones{
     margin-top: 16px;
     margin-bottom: 16px;
@@ -68,21 +77,79 @@ h1{
     height: 10px;
     top:16px;
 }
-#buttonblue{
+.buttonblue{
     background: #2d4c9c;
 }
-#nature{
-    background: url("../images/Dronebackground.png") no-repeat;
-    background-position: bottom;
-    background-position: right;
+.greybackground{
+    background: #f6f6f6;
+}
+.gradient-text {
+    background: linear-gradient(to bottom right, #cb0035 25%, #db500a 75%); /* Definieer je gewenste kleurverloop als achtergrond */
+    -webkit-background-clip: text; /* Hiermee wordt de achtergrond van de tekst bepaald door de achtergrond van het element */
+    color: transparent; /* Maak de oorspronkelijke tekst transparant */
+}
+#nature p{
+    font-family: novar;
+    font-size: 16px;
+}
+#imagetop{
+    background: url("../images/foto top.png") no-repeat;
+    background-size:cover;
+}
+#imagebottom{
+    background: url("../images/foto bottom.png") no-repeat;
+    background-size:cover;
+}
+#newsletter{
+    background: url("../images/Newsletter.png") no-repeat;
+    background-size:cover;
+}
+#newsletter h2{
+    font-family: novab;
+    font-size: 48px;
+}
+footer span{
+    font-weight: bold;
+}
+
+.google-maps{
+    width: 100% !important;
+    height: 100% !important;
 }
 /* BEGIN media queries*/
 @media (min-width: 992px) {
     .my-drones{
-        margin-top: 135px;margin-bottom: 135px;
+        margin-top: 135px;
+        margin-bottom: 135px;
+    }
+    .newslettertop{
+        margin-top: 170px;
+    }
+    .newsletterbottom{
+        margin-top: 190px;
     }
     .btnbluetop{
         margin-top: 109px;
+    }
+    #nature{
+        background: url("../images/Dronebackground.png") no-repeat right center;
+    }
+    .natureitem0{
+        width: 20%;
+        padding-top: 85px;
+        padding-bottom: 190px;
+    }
+    .natureitem{
+        width: 50%;
+    }
+    .natureitem2{
+        width: 65%;
+    }
+    .ps-80{
+        padding-left: 80px;
+    }
+    .ps-200{
+        padding-left: 200px;
     }
 }
 /*END media queries*/
